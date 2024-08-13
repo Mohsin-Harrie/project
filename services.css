@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+body{
+    
+    background: #c8e8e0;
+    padding-top: 50px;
+    /*background: url(our\ services.avif) no-repeat center center/cover;*/
+    background-color: #000;
+    
+}
+
+h1{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.row{
+    padding-top: 50px;
+    width: 100%;
+    margin: px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     align-items: center;
+}
+
+.box{
+    width: 320px;
+    height: 500px;
+    margin: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px  rgba(255, 255, 255, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.box h3{
+    font-size: 25px;
+    padding-top: 20px;
+    color: #1743e3;
+}
+.box p{
+    color: #fff;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.box .btn{
+    width: 150px;
+    height: 40px;
+    background: #1743e3;
+    border-radius: 50px;
+    border: 1px solid #1743e3;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.box .btn:hover{
+    background: transparent;
+    color: #1743e3;
+    border-color: #1743e3;
+    cursor: pointer;
+}
